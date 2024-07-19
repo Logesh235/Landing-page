@@ -1,38 +1,94 @@
-.App {
+
+.body{
+  background-image: url(./img/bg-bat.jpg) ;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+img{
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}
+.quote{
+  position: absolute;
+}
+.p1{
+  font-size: 3em;
+  margin: .6em auto auto .6em;
+  font-family: cursive;
+  font-weight: bold;
+}
+.p2{
+  font-size: 4em;
+  margin: auto auto auto .5em;
+  font-weight: bold;
+  color: rgb(215, 4, 102);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p3{
+  font-size: 3em;
+  margin: auto auto auto .6em;
+}
+.p4{
+  font-size: 4em;
+  margin: auto auto auto .5em;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p4 span{
+  color: red;
+}
+ .p5{
+  font-size: 1.5em;
+  margin: auto auto auto 1em;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ button{
+display: inline-block;
+ outline: none;
+ cursor: pointer;
+ font-size: 16px;
+ line-height: 20px;
+ font-weight: 600;
+ border-radius: 8px;
+ padding: 14px 24px;
+ border: none;
+ transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+ background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+ color: #fff;
+ }
+ .buy-btn{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  margin-top: 1em;
+ }
+ .warner-img{
+  height: 80vh;
+  position: absolute;
+  right: 14em;
+  bottom: 10em;
+  width: 10em;
+ }
+ .offer-img{
+  position: absolute;
+  right: 28em;
+  top: 12em;
+  width: 10em;
+ }
+ .bat-img{
+  top: 0;
+  margin: 0;
+ }
+ ul{
+  margin: 0;
+  padding: 0;
+  color: rgb(215, 4, 102);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+  position: absolute;
+  top: 33em;
+  left: 35em;
+  font-weight: bold;
+ }
+ 
